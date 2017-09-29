@@ -8,6 +8,10 @@ header  {
 
 }
 
+header nav li {
+  list-style: none;
+}
+
 /*nav {
   width: 900px;
   margin: 0px auto;
@@ -30,12 +34,26 @@ header  {
   height: 25px;
 }
 
+#left-side-mast h1 {
+  font-family: pacifico;
+}
+
+#left-side-mast li {
+  list-style: none;
+
+}
+
 #right-side-links {
-  margin-left: 550px;
+  margin-top: 0px;
+  margin-left: 660px;
 }
 
 #right-side-links li {
   display: inline-block;
   margin-left: 2px;
-  height: 10px;
+  height: 2px;
+}
+
+main {
+  margin-top: 20px;
 }
