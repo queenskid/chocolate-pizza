@@ -1,7 +1,3 @@
-* {
- border: 1px solid red;
-}
-
 
 header  {
   height: 100px;
@@ -12,14 +8,27 @@ header nav li {
   list-style: none;
 }
 
-/*nav {
-  width: 900px;
-  margin: 0px auto;
-}*/
 
-/*header nav img {
+main {
+  margin-top: 20px;
+}
 
-}*/
+main h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+main h3 {
+  font-family: 'Bungee Hairline', cursive;
+}
+
+section ul:first-child {
+  font-family: 'Open Sans Condensed', sans-serif;
+  list-style: none;
+}
+
+section ul:nth-child(2) {
+  font-family: 'Exo 2', sans-serif;
+}
 
 #main-logo {
   float: left;
@@ -52,8 +61,4 @@ header nav li {
   display: inline-block;
   margin-left: 2px;
   height: 2px;
-}
-
-main {
-  margin-top: 20px;
 }
