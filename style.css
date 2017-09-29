@@ -1,0 +1,41 @@
+* {
+ border: 1px solid red;
+}
+
+
+header  {
+  height: 100px;
+
+}
+
+/*nav {
+  width: 900px;
+  margin: 0px auto;
+}*/
+
+/*header nav img {
+
+}*/
+
+#main-logo {
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+
+}
+
+#left-side-mast {
+  margin: 0px;
+  width: 200px;
+  height: 25px;
+}
+
+#right-side-links {
+  margin-left: 550px;
+}
+
+#right-side-links li {
+  display: inline-block;
+  margin-left: 2px;
+  height: 10px;
+}
