@@ -1,84 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
-  <title></title>
-</head>
-<header>
-  <nav>
-    <li><img id="main-logo" src="./image/logo.png" alt=""></li>
-    <ul id="left-side-mast">
-      <li><h1>Delicious</h1></li>
-      <li><h3>THE BEST FOOD BLOG ON THE WEB</h3></li>
-    </ul>
-
-    <ul id="right-side-links">
-      <li><img src="./image/fb-icon.png" alt=""></li>
-      <li><img src="./image/twit-icon.png" alt=""></li>
-      <li><img src="./image/gp-icon.png" alt=""></li>
-      <li><img src="./image/insta-icon.png" alt=""></li>
-      <li><img src="./image/flic-icon.png" alt=""></li>
-      <li><img src="./image/pint-icon.png" alt=""></li>
-      <li><img src="./image/rss-icon.png" alt=""></li>
-      <li><img src="./image/mail-icon.png" alt=""></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <h1>Chocolate Pizza</h1>
-  <h3>POSTED ON 15 DEC 2013 / DESSERTS</h3>
-  <img src="./image/print-icon.png" alt="">
-  <p>PRINT</p>
-  <img src="./image/choco-pizza.png" alt="">
-</main>
-
-<section>
-  <ul>
-    <li>  For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p></li>
-
-    <li>Ice cream: In a small pot over medium heat, combine milk and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
-    </p></li>
-
-    <li>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p></li>
-  </ul>
-
-  <ul>
-    <li>1 1/2 cups milk</li>
-    <li>1/2 cups mascarpone</li>
-    <li>1/2 tsp pink salt</li>
-    <li>1 lb Black Mission Figs</li>
-    <li>1/2 cup brown sugar</li>
-    <li>2-4 tbsp water</li>
-  </ul>
-  <ul>
-    <li>1 1/2 cups heavy cream</li>
-    <li>1/3 granulated sugar</li>
-    <li>2 eggs yolks</li>
-    <li>1 lemon, juiced</li>
-    <li>2 tbsp butter</li>
-    <li>1 cup honey roasted pecans, roughly chopped</li>
-  </ul>
-</section>
-
-<footer>
-  <ul>
-    <li><img src="./image/van-pic.png" alt=""></li>
-    <li><h3>Vanessa Stevenson</h3></li>
-    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am</p>
-    <button type="button" name="Share Recipe">SHARE RECIPE</button>
-  </ul>
-
-  <img src="./image/logo.png" alt="">
-  <p>Dlicious &#9400; 2013 &#183; ALL Rights Reserved.</p>
-  <p>Proudly published with Ghost.</p>
 
 
-</footer>
-</html>
+header  {
+  height: 100px;
+
+}
+
+header nav li {
+  list-style: none;
+}
+
+
+main {
+  margin-top: 20px;
+}
+
+main h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+main h3 {
+  font-family: 'Bungee Hairline', cursive;
+}
+
+section ul:first-child {
+  font-family: 'Open Sans Condensed', sans-serif;
+  list-style: none;
+}
+
+section ul:nth-child(2) {
+  font-family: 'Exo 2', sans-serif;
+}
+
+#main-logo {
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+
+}
+
+#left-side-mast {
+  margin: 0px;
+  width: 200px;
+  height: 25px;
+}
+
+#left-side-mast h1 {
+  font-family: pacifico;
+}
+
+#left-side-mast li {
+  list-style: none;
+
+}
+
+#right-side-links {
+  margin-top: 0px;
+  margin-left: 660px;
+}
+
+#right-side-links li {
+  display: inline-block;
+  margin-left: 2px;
+  height: 2px;
+}
